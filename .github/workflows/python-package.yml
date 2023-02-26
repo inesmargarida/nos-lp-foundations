@@ -32,7 +32,7 @@ jobs:
     - name: Setting virtual environment
       run: |
          python -m venv .venv
-         source .venv\Scripts\activate
+         source .venv/Scripts/activate
          python -m pip install -e '.[dev]'
     - name: Analysing the code with pylint
       run: |
