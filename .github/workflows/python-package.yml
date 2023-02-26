@@ -36,7 +36,7 @@ jobs:
         virtualenvs-create: true
         virtualenvs-in-project: true
     - name: Install dependencies
-      #working-directory: ./assigments/ #We're matching our project structure
+      #working-directory: /assigments/ #We're matching our project structure
       run: poetry install
     - name: Analysing the code with pylint
       run: |
